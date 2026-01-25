@@ -2,9 +2,7 @@
 *.iml
 target/
 out/
-
-postcomm.sql
-postcommentsdb_dump.sql
+.dump/
 
 *.class
 *.log
