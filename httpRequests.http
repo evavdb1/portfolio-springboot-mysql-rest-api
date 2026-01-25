@@ -1,0 +1,56 @@
+###
+GET http://localhost:8080/api/posts
+
+###
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "title": "",
+  "description": "",
+  "content": "",
+  "comments": []
+}
+
+###
+GET http://localhost:8080/api/posts/{{id}}
+
+###
+PUT http://localhost:8080/api/posts/{{id}}
+Content-Type: application/json
+
+{
+  "id": 0,
+  "title": "",
+  "description": "",
+  "content": "",
+  "comments": []
+}
+
+###
+DELETE http://localhost:8080/api/posts/{{id}}
+
+###
+GET http://localhost:8080/api/posts/{{id}}/comments
+
+###
+POST http://localhost:8080/api/comments/posts/{{postId}}
+Content-Type: application/json
+
+{
+  "id": 0,
+  "text": ""
+}
+
+###
+PUT http://localhost:8080/api/comments/{{id}}
+Content-Type: application/json
+
+{
+  "id": 0,
+  "text": ""
+}
+
+###
+DELETE http://localhost:8080/api/comments/{{id}}

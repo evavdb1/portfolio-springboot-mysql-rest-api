@@ -1,0 +1,473 @@
+{
+	"info": {
+		"_postman_id": "55f74359-99e0-49e3-8e98-9c962badcbf9",
+		"name": "ProjectBlogAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50433858",
+		"_collection_link": "https://evavdb1-3716250.postman.co/workspace/eva's-Workspace~2039ffaf-2942-4aa1-835e-d54831d26d76/collection/50433858-55f74359-99e0-49e3-8e98-9c962badcbf9?action=share&source=collection_link&creator=50433858"
+	},
+	"item": [
+		{
+			"name": "posts details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 13:08:11 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Summer vibez\",\n        \"description\": \"winter in Australia\",\n        \"content\": \"so nice, this sun and pool down under\",\n        \"comments\": [],\n        \"createdAt\": \"2025-12-04T12:20:17.535Z\",\n        \"updatedAt\": \"2025-12-04T12:20:17.535Z\"\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Mitzi going crazy\",\n        \"description\": \"cats\",\n        \"content\": \"got new toys, great success\",\n        \"comments\": [\n            {\n                \"id\": 2,\n                \"text\": \"energetic little furball!\",\n                \"createdAt\": \"2025-12-04T12:20:17.585Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.585Z\"\n            },\n            {\n                \"id\": 1,\n                \"text\": \"so cute...\",\n                \"createdAt\": \"2025-12-04T12:20:17.580Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.580Z\"\n            },\n            {\n                \"id\": 3,\n                \"text\": \"spoiled cat\",\n                \"createdAt\": \"2025-12-04T12:20:17.587Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.587Z\"\n            }\n        ],\n        \"createdAt\": \"2025-12-04T12:20:17.576Z\",\n        \"updatedAt\": \"2025-12-04T12:20:17.576Z\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"endless studying\",\n        \"description\": \"exams\",\n        \"content\": \"no sweat no glory\",\n        \"comments\": [\n            {\n                \"id\": 4,\n                \"text\": \"good luck!\",\n                \"createdAt\": \"2025-12-04T12:20:17.592Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.592Z\"\n            }\n        ],\n        \"createdAt\": \"2025-12-04T12:20:17.589Z\",\n        \"updatedAt\": \"2025-12-04T12:20:17.589Z\"\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Tech stuff\",\n        \"description\": \"resolutions\",\n        \"content\": \"nothing like fixing your code without creating 2 new problems\",\n        \"comments\": [\n            {\n                \"id\": 7,\n                \"text\": \"amen\",\n                \"createdAt\": \"2025-12-04T12:20:17.602Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.602Z\"\n            },\n            {\n                \"id\": 6,\n                \"text\": \"you said it Stan, good luck!\",\n                \"createdAt\": \"2025-12-04T12:20:17.599Z\",\n                \"updatedAt\": \"2025-12-04T12:20:17.599Z\"\n            }\n        ],\n        \"createdAt\": \"2025-12-04T12:20:17.597Z\",\n        \"updatedAt\": \"2025-12-04T12:20:17.597Z\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "1 post details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/posts/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"posts",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 13:07:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"title\": \"endless studying\",\n    \"description\": \"exams\",\n    \"content\": \"no sweat no glory\",\n    \"comments\": [\n        {\n            \"id\": 4,\n            \"text\": \"good luck!\",\n            \"createdAt\": \"2025-12-04T12:20:17.592Z\",\n            \"updatedAt\": \"2025-12-04T12:20:17.592Z\"\n        }\n    ],\n    \"createdAt\": \"2025-12-04T12:20:17.589Z\",\n    \"updatedAt\": \"2025-12-04T12:20:17.589Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "save post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 6,\r\n  \"title\": \"music\",\r\n  \"description\": \"discovery\",\r\n  \"content\": \"new music from Beethoven found in old book\",\r\n  \"comments\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"music\",\r\n  \"description\": \"discovery\",\r\n  \"content\": \"new music from Beethoven found in old book\",\r\n  \"comments\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 13:42:54 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 5,\n    \"title\": \"music\",\n    \"description\": \"discovery\",\n    \"content\": \"new music from Beethoven found in old book\",\n    \"comments\": [],\n    \"createdAt\": \"2025-12-04T13:42:54.438Z\",\n    \"updatedAt\": \"2025-12-04T13:42:54.438Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "save comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 8,\r\n  \"text\": \"fantastic\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/comments/posts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"comments",
+						"posts",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"text\": \"fantastic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/comments/posts/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"posts",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 13:37:05 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 8,\n    \"text\": \"fantastic\",\n    \"createdAt\": \"2025-12-04T13:37:05.225Z\",\n    \"updatedAt\": \"2025-12-04T13:37:05.225Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "update comment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"text\": \"absolutely fantastic\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/comments/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"comments",
+						"8"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 8,\r\n  \"text\": \"absolutely fantastic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/comments/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"8"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 13:52:46 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 8,\n    \"text\": \"absolutely fantastic\",\n    \"createdAt\": \"2025-12-04T13:52:37.412Z\",\n    \"updatedAt\": \"2025-12-04T13:52:46.636Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "delete comment",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/comments/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"comments",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 04 Dec 2025 12:51:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
