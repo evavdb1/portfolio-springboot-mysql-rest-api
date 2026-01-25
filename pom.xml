@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>be.intecbrussel</groupId>
-    <artifactId>Springboot_rest_API</artifactId>
+    <artifactId>portfolio-springboot-rest-API</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Spring_BlogAPI</name>
     <description>Spring_BlogAPI</description>
