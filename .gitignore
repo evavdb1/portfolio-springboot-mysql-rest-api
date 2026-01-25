@@ -3,6 +3,9 @@
 target/
 out/
 
+postcomm.sql
+postcommentsdb_dump.sql
+
 *.class
 *.log
 *.db
