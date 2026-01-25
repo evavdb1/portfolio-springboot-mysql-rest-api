@@ -43,7 +43,7 @@ mvn spring-boot:run
 
 ---
 ```
-portfolio-springboot-blogAPI/
+portfolio-springboot-rest-API/
 │
 ├── src/
 │   └── main/

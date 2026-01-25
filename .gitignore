@@ -5,6 +5,5 @@ out/
 
 *.class
 *.log
-*.sql
 *.db
 *.env
