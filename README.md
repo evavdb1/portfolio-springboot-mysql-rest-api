@@ -64,18 +64,31 @@ mvn spring-boot:run
 portfolio-springboot-mysql-rest-API/
 │
 ├── src/
-│   └── main/
-│       ├── java/
+│   └── main/java/
 │       │   └── org/evavdb1/blogapi/
 │       │       └── bootstrap/
+│       │               └── DataLoader.java
 │       │       └── configuration/
+│       │               └── AuditConfig.java
 │       │       └── controller/
+│       │               └── CommentController.java
+│       │               └── PostController.java
 │       │       └── dto/
+│       │               └── ErrorResponse.java
 │       │       └── exception/
+│       │               └── GlobalExceptionHandler.java
+│       │               └── ResourceNotFoundException.java
 │       │       └── model/
+│       │               └── AuditModel.java
+│       │               └── Comment.java
+│       │               └── Post.java
 │       │       └── repository/
+│       │               └── CommentRepository.java
+│       │               └── PostRepository.java
 │       │       └── service/
-│       │       └── @SpringBlogApiApplication
+│       │               └── CommentService.java
+│       │               └── PostService.java
+│       │       └── SpringBlogApiApplication.java
 │       └── resources/
 │           └── application.properties
 ├── sql/
