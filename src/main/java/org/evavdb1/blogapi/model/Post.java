@@ -1,4 +1,4 @@
-package springboot_blogapi.model;
+package org.evavdb1.blogapi.model;
 import jakarta.persistence.*;
 import org.antlr.v4.runtime.misc.NotNull;
 import java.util.HashSet;

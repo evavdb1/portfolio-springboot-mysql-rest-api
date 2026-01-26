@@ -1,4 +1,4 @@
-package springboot_blogapi.model;
+package org.evavdb1.blogapi.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import org.springframework.data.annotation.CreatedDate;

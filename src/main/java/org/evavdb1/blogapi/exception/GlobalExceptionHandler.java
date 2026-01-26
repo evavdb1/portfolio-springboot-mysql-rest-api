@@ -1,6 +1,6 @@
-package springboot_blogapi.exception;
+package org.evavdb1.blogapi.exception;
 import jakarta.servlet.http.HttpServletRequest;
-import springboot_blogapi.dto.ErrorResponse;
+import org.evavdb1.blogapi.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

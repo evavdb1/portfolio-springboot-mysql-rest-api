@@ -1,8 +1,8 @@
-package springboot_blogapi.controller;
-import springboot_blogapi.model.*;
-import springboot_blogapi.model.Comment;
-import springboot_blogapi.model.Post;
-import springboot_blogapi.service.PostService;
+package org.evavdb1.blogapi.controller;
+import org.evavdb1.blogapi.model.*;
+import org.evavdb1.blogapi.model.Comment;
+import org.evavdb1.blogapi.model.Post;
+import org.evavdb1.blogapi.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

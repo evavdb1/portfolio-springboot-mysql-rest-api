@@ -8,18 +8,12 @@
         <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>be.intecbrussel</groupId>
-    <artifactId>portfolio-springboot-rest-API</artifactId>
+    <groupId>org.evavdb1</groupId>
+    <artifactId>portfolio-springboot-mysql-rest-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Spring_BlogAPI</name>
-    <description>Spring_BlogAPI</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
+    <name>BlogAPI</name>
+    <description>BlogAPI</description>
+
     <scm>
         <connection/>
         <developerConnection/>

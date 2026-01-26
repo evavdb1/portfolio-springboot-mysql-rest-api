@@ -1,4 +1,4 @@
-# Portfolio Springboot REST API
+# Portfolio Springboot MySQL REST API (BlogAPI)
 
 *A Representational State Transfer Application Programming Interface 
 with stateless http-requests. A Blog REST API.*
@@ -39,16 +39,16 @@ with stateless http-requests. A Blog REST API.*
 mvn spring-boot:run
 ```
 5. API available at http://localhost:8080
-6. Import the included Postman collection to test the endpoints or check 'httpRequests.http'
+6. Import postman_collection.json for http requests
 
 ---
 ```
-portfolio-springboot-rest-API/
+portfolio-springboot-mysql-rest-API/
 │
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── springboot_blogapi/
+│       │   └── org/evavdb1/blogapi/
 │       │       └── bootstrap/
 │       │       └── configuration/
 │       │       └── controller/
@@ -62,13 +62,11 @@ portfolio-springboot-rest-API/
 │           └── application.properties
 ├── sql/
 │   ├── comments.sql
-│   ├── postcomm.sql
-│   ├── postcommentsdb_dump.sql
 │   └── posts.sql
 │
 ├── pom.xml                 
-├── httpRequests.http
-├── postmanCollection.json            
+├── http_requests.http
+├── postman_collection.json            
 ├── README.md
 └── .gitignore
 ```

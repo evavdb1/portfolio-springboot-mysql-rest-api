@@ -1,8 +1,8 @@
-package springboot_blogapi.bootstrap;
-import springboot_blogapi.model.Comment;
-import springboot_blogapi.model.Post;
-import springboot_blogapi.repository.CommentRepository;
-import springboot_blogapi.repository.PostRepository;
+package org.evavdb1.blogapi.bootstrap;
+import org.evavdb1.blogapi.model.Comment;
+import org.evavdb1.blogapi.model.Post;
+import org.evavdb1.blogapi.repository.CommentRepository;
+import org.evavdb1.blogapi.repository.PostRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

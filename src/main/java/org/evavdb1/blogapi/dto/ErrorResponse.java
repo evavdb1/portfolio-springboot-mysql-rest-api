@@ -1,4 +1,4 @@
-package springboot_blogapi.dto;
+package org.evavdb1.blogapi.dto;
 import java.time.Instant;
 
 public class ErrorResponse {

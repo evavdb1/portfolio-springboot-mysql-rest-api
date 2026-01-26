@@ -1,4 +1,4 @@
-package springboot_blogapi.exception;
+package org.evavdb1.blogapi.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
 

@@ -1,9 +1,9 @@
-package springboot_blogapi.service;
-import springboot_blogapi.exception.ResourceNotFoundException;
-import springboot_blogapi.model.*;
-import springboot_blogapi.model.Comment;
-import springboot_blogapi.model.Post;
-import springboot_blogapi.repository.PostRepository;
+package org.evavdb1.blogapi.service;
+import org.evavdb1.blogapi.exception.ResourceNotFoundException;
+import org.evavdb1.blogapi.model.*;
+import org.evavdb1.blogapi.model.Comment;
+import org.evavdb1.blogapi.model.Post;
+import org.evavdb1.blogapi.repository.PostRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

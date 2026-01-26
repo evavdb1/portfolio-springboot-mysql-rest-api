@@ -1,4 +1,4 @@
-package springboot_blogapi;
+package org.evavdb1.blogapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
@@ -23,7 +23,7 @@ v appl.prop
 v bootstrap package
 
 v postman collection
-    *       SEE FILE postmanCollection.json
+    *       SEE FILE postman_collection.json
 
 v SQL schema
     * used WorkBench (
