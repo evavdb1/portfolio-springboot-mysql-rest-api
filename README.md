@@ -42,6 +42,24 @@ mvn spring-boot:run
 6. Import postman_collection.json for http requests
 
 ---
+
+## Endpoints
+*posts*
+- GET    /api/posts
+- POST   /api/posts
+- GET    /api/posts/{id}
+- PUT    /api/posts/{id}
+- DELETE /api/posts/{id}
+
+*post comments*
+- GET    /api/posts/{id}/comments
+
+*comments*
+- POST   /api/comments/posts/{postId}
+- PUT    /api/comments/{id}
+- DELETE /api/comments/{id}
+
+---
 ```
 portfolio-springboot-mysql-rest-API/
 │
