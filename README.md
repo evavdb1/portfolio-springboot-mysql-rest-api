@@ -30,19 +30,6 @@ with stateless http-requests. A Blog REST API.*
 
 ---
 
-## How to Run
-1. Clone the repository
-2. Create MySQL database: 'postcommentdb'
-3. Configure username & password in application.properties
-4. Start the application in the terminal, using Maven
-```
-mvn spring-boot:run
-```
-5. API available at http://localhost:8080
-6. Import postman_collection.json for http requests
-
----
-
 ## Endpoints
 *posts*
 - GET    /api/posts
@@ -60,8 +47,21 @@ mvn spring-boot:run
 - DELETE /api/comments/{id}
 
 ---
+
+## How to Run
+1. Clone the repository
+2. Create MySQL database: 'postcommentdb'
+3. Configure username & password in application.properties
+4. Start the application in the terminal, using Maven
 ```
-portfolio-springboot-mysql-rest-API/
+mvn spring-boot:run
+```
+5. API available at http://localhost:8080
+6. Import postman_collection.json for http requests
+
+---
+```
+portfolio-springboot-mysql-rest-api/
 │
 ├── src/
 │   └── main/java/
